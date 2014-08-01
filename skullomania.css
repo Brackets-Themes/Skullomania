@@ -39,6 +39,11 @@ span.cm-qualifier	{ color: #fff; }
 	border-left: 1px solid #fff !important;
 }
 
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #fff !important;
+    border-left: none !important
+}
+
 .CodeMirror-gutters {
 	background: #111;
 	border-right: 0;
