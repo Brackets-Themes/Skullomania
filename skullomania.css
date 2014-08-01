@@ -1,0 +1,85 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-link		{ color: #fa4f68; }
+span.cm-number		{ color: #fa4f68; }
+span.cm-string		{ color: #fa4f68; }
+
+span.cm-atom		{ color: #cdcdcd; }
+span.cm-meta		{ color: #cdcdcd; }
+
+span.cm-bracket		{ color: #ffffff; }
+span.cm-def			{ color: #ffffff; }
+span.cm-keyword		{ color: #ffffff; }
+span.cm-operator	{ color: #ffffff; }
+span.cm-tag			{ color: #ffffff; }
+
+span.cm-attribute	{ color: #c2deff; }
+span.cm-variable	{ color: #c2deff; }
+
+span.cm-comment		{ color: #717171; }
+span.cm-error		{ color: #f5ff00; }
+span.cm-property	{ color: #98a6b5; }
+
+span.cm-builtin     { color: #ff893f; }
+span.cm-string-2    { color: #ff893f; }
+span.cm-variable-2	{ color: #ff893f; }
+span.cm-header      { color: #ff893f; }
+span.cm-qualifier	{ color: #fff; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+	background: #111;
+	color: #929aa2;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #fff !important;
+}
+
+.CodeMirror-gutters {
+	background: #111;
+	border-right: 0;
+}
+
+.CodeMirror-linenumber {
+	color: #4e5155;
+}
+
+.CodeMirror-selected {
+	background: #2b3c58 !important;
+}
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: transparent !important;
+	border-bottom: 3px solid #fa4f68 !important;
+    color: #fff !important;
+}
+
+.CodeMirror-matchingtag {
+    background: transparent !important;
+	border-bottom: 3px solid #fa4f68 !important;
+}
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #fff !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #333 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #fff;
+	background-color: #222 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+	color: #fff;
+}
