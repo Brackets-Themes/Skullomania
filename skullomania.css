@@ -41,7 +41,7 @@ span.cm-qualifier	{ color: #fff; }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
     border-bottom: 1px solid #fff !important;
-    border-left: none !important
+    border-left: none !important;
 }
 
 .CodeMirror-gutters {
