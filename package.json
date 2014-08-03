@@ -1,8 +1,9 @@
 {
     "title": "Skullomania",
     "name": "skullomania",
-    "description": "Skullomania Theme for Brackets.",
-    "version": "0.0.2",
+    "description": "Skullomania Theme for Brackets.This theme helps you see the skeleton. A Brackets original.
+",
+    "version": "0.0.3",
     "author": "larz0 (https://github.com/larz0)",
     "homepage": "https://github.com/Brackets-Themes/Skullomania",
     "repository": {
