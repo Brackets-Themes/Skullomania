@@ -89,3 +89,14 @@ span.cm-qualifier	{ color: #ffffff; }
 .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
 	color: #fff;
 }
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #111;
+}
+
+#image-holder {
+    color: #929aa2;
+}
